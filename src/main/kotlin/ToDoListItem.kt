@@ -1,0 +1,1 @@
+data class ToDoListItem(var checked: Boolean, var taskName: String)
