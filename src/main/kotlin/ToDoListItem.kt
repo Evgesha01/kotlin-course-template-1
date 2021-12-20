@@ -1,1 +1,1 @@
-data class ToDoListItem(var checked: Boolean, var taskName: String)
+data class ToDoListItem(val checked: Boolean, val taskName: String)

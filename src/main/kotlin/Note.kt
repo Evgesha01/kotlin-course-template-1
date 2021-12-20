@@ -1,6 +1,6 @@
 import java.nio.file.Path
 
-data class Note (var title: String, var color: Color, var content: NoteContent)
+data class Note (val title: String, val color: Color, val content: NoteContent)
 
 fun main() {
     val firstNote = Note("first", Color.RED, NoteContent.Text(listOf("firstString", "secondString")))
